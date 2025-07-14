@@ -38,7 +38,7 @@
     --gamba-ui-button-main-background: #282727;
     --gamba-ui-button-main-background-hover: #0e0e0e;
     --gamba-ui-input-background: #000000;
-    --gamba-ui-input-color: #ffffff;
+    --gamba-ui-input-color: #000000;
     --gamba-ui-input-background-hover: #000000;
   }
 }
