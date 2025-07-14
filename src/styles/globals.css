@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #9564ff;
+  background-color: #3edf7c;
 }
 
 .modal::-webkit-scrollbar {
@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .modal::-webkit-scrollbar-thumb {
-  background-color: #9564ff;
+  background-color: #3edf7c;
 }
 
 @layer utilities {
