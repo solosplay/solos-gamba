@@ -37,8 +37,8 @@
     --gamba-ui-button-default-color: #000000;
     --gamba-ui-button-main-background: #282727;
     --gamba-ui-button-main-background-hover: #0e0e0e;
-    --gamba-ui-input-background: #e5e5e5;
-    --gamba-ui-input-color: #000000;
+    --gamba-ui-input-background: #000000;
+    --gamba-ui-input-color: #ffffff;
     --gamba-ui-input-background-hover: #000000;
   }
 }
@@ -219,7 +219,7 @@ body::-webkit-scrollbar-thumb {
 
 .game-card:hover {
   transform: scale(1.01);
-  outline: #9564ff33 solid 5px;
+  outline: #00000033 solid 5px;
   outline-offset: 0px;
 }
 
