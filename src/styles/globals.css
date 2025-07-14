@@ -32,11 +32,11 @@
     --chart-5: 340 75% 55%;
 
     --gamba-ui-border-radius: 0.5rem;
-    --gamba-ui-button-default-background: #000000;
+    --gamba-ui-button-default-background: #ffffff;
     --gamba-ui-button-default-background-hover: #000000;
-    --gamba-ui-button-default-color: white;
-    --gamba-ui-button-main-background: #000000;
-    --gamba-ui-button-main-background-hover: #000000;
+    --gamba-ui-button-default-color: #000000;
+    --gamba-ui-button-main-background: #ffffff;
+    --gamba-ui-button-main-background-hover: #e9e9e9;
     --gamba-ui-input-background: #e5e5e5;
     --gamba-ui-input-color: #000000;
     --gamba-ui-input-background-hover: #000000;
