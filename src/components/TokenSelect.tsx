@@ -76,7 +76,7 @@ export default function TokenSelect() {
         {selectedToken && (
           <div className="min-w-32 max-sm:text-xs whitespace-nowrap flex items-center gap-2.5">
             <img
-              className="w-5 h-5 rounded-full"
+              className="w-5 h-5 rounded-md"
               src={selectedToken.image}
               alt="Token"
             />
