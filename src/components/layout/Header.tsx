@@ -198,7 +198,7 @@ export default function Header() {
                         <p className="text-sm font-medium">Connected Wallet</p>
                         <p className="text-xs opacity-70">{truncateString(publicKey?.toString() || "", 8, 8)}</p>
                       </div>
-                      <Avatar className="h-12 w-12">
+                      <Avatar className="h-12 w-12 rounded-md">
                         <AvatarImage src={wallet?.adapter.icon} alt="Wallet Icon" />
                         <AvatarFallback>WL</AvatarFallback>
                       </Avatar>
@@ -302,7 +302,7 @@ export default function Header() {
                         }}
                       >
                         <LogOut className="h-4 w-4 mr-2" />
-                        Disconnect
+                        Sign Out
                       </Button>
                     </DialogClose>
                   </div>
