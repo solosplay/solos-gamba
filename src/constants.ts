@@ -36,11 +36,11 @@ export const FOOTER_LINKS = [
   // },
   {
     href: "https://gamba.so/docs",
-    title: "📖 Gamba Docs",
+    title: "📖 X/Twitter",
   },
   {
     href: "https://discord.com/invite/HSTtFFwR",
-    title: "💬 Join Discord",
+    title: "💬 Discord",
   },
 ];
 
