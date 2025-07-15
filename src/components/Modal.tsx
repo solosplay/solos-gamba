@@ -30,7 +30,7 @@ export function Modal({ children, onClose }: Props) {
         <div
           style={{
             backgroundImage:
-              "linear-gradient(to bottom right, #3edf7c,rgb(72, 193, 118))",
+              "linear-gradient(to bottom right,rgb(0, 0, 0),rgb(0, 0, 0))",
           }}
           tabIndex={-1}
           className="outline outline-1 relative flex flex-col items-center w-full max-w-sm md:max-w-lg mx-auto rounded-lg bg-[#15151f] shadow-lg z-100 py-5 pb-5 animate-scale-up text-white overflow-y-auto max-h-[90vh]"
@@ -38,7 +38,7 @@ export function Modal({ children, onClose }: Props) {
           {onClose && (
             <button
               onClick={onClose}
-              className="w-10 h-10 z-50 absolute top-2.5 right-2.5 bg-transparent rounded-full p-2 hover:bg-white hover:bg-opacity-10 transition-opacity duration-200 ease-linear focus:outline-none min-w-[44px] min-h-[44px]"
+              className="w-10 h-10 z-50 absolute top-2.5 right-2.5 bg-transparent rounded-md p-2 hover:bg-white hover:bg-opacity-10 transition-opacity duration-200 ease-linear focus:outline-none min-w-[44px] min-h-[44px]"
             >
               <Icon.Close2 />
             </button>
