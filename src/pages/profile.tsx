@@ -58,7 +58,7 @@ const Profile: React.FC = () => {
     toast.success(
       `Copied! Share your link to earn a ${
         PLATFORM_REFERRAL_FEE * 100
-      }% fee when players use this platform`
+      }% fee when players use solos`
     );
   };
 
@@ -124,7 +124,7 @@ const Profile: React.FC = () => {
     <section className="py-12 px-4 md:px-0">
       <Card className="max-w-4xl mx-auto">
         <CardHeader>
-          <CardTitle className="text-2xl md:text-3xl font-bold">Profile Dashboard</CardTitle>
+          <CardTitle className="text-2xl md:text-3xl font-bold">My Profile</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
