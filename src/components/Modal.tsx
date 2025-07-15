@@ -30,7 +30,7 @@ export function Modal({ children, onClose }: Props) {
         <div
           style={{
             backgroundImage:
-              "linear-gradient(to bottom right, #1e3a8a, #6b21a8)",
+              "linear-gradient(to bottom right, #3edf7c,rgb(72, 193, 118))",
           }}
           tabIndex={-1}
           className="outline outline-1 relative flex flex-col items-center w-full max-w-sm md:max-w-lg mx-auto rounded-lg bg-[#15151f] shadow-lg z-100 py-5 pb-5 animate-scale-up text-white overflow-y-auto max-h-[90vh]"
