@@ -142,7 +142,7 @@ export default function TokenSelect() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      View Pool on Explorer
+                      View on Explorer 🔗
                     </a>
                   </GambaUi.Button>
                 </div>
