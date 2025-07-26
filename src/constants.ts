@@ -45,7 +45,7 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/bankkroll_eth",
+  href: "https://x.com/solosbet",
   title: "© 2025 SOLOSBET",
 };
 
