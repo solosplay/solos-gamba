@@ -103,7 +103,7 @@ export default function TokenSelect() {
           {jackpotHelp && (
             <Modal onClose={() => setJackpotHelp(false)}>
               <div className="text-lg font-semibold text-center">
-                {token.name} Jackpot Details
+                {token.name} Jackpot 💰
               </div>
               {pool.jackpotBalance > 0 && (
                 <div className="flex text-[#003c00] rounded-lg bg-[#03ffa4] px-2.5 py-0.5 uppercase font-bold">
